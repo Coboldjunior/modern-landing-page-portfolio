@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Restaurant Tisch Vorschau</title>
+  <desc id="desc">Illustration eines gedeckten Restauranttischs mit Tellern, Glaesern und warmen Farben.</desc>
+  <rect width="900" height="620" fill="#f7efe6"/>
+  <rect x="64" y="74" width="772" height="472" rx="28" fill="#8f4b2b"/>
+  <rect x="102" y="112" width="696" height="396" rx="22" fill="#f6d8bf"/>
+  <circle cx="318" cy="308" r="122" fill="#fffdf8"/>
+  <circle cx="318" cy="308" r="74" fill="#f1dfcf"/>
+  <circle cx="582" cy="308" r="122" fill="#fffdf8"/>
+  <circle cx="582" cy="308" r="74" fill="#f1dfcf"/>
+  <path d="M284 312c38-48 77-44 112 0-30 31-72 35-112 0Z" fill="#0d766c"/>
+  <path d="M540 330c34-52 82-54 120-6-38 28-78 32-120 6Z" fill="#a34725"/>
+  <circle cx="356" cy="270" r="18" fill="#d39b2d"/>
+  <circle cx="624" cy="278" r="18" fill="#d39b2d"/>
+  <rect x="168" y="170" width="36" height="270" rx="18" fill="#fffdf8"/>
+  <rect x="696" y="170" width="36" height="270" rx="18" fill="#fffdf8"/>
+  <path d="M438 142h24v332h-24z" fill="#8f4b2b" opacity=".55"/>
+  <circle cx="450" cy="176" r="34" fill="#fffdf8" opacity=".85"/>
+  <circle cx="450" cy="438" r="34" fill="#fffdf8" opacity=".85"/>
+  <rect x="242" y="466" width="416" height="14" rx="7" fill="#8f4b2b" opacity=".45"/>
+</svg>

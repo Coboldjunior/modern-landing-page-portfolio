@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio mit diversen Landing-Page-Konzepten fuer SaaS, Hospitality, Interior, Fitness, Energie und Fintech.">
+    <title>Paul Rothe | Landing Page Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Zur Startseite">
+        <span class="brand-mark" aria-hidden="true">PR</span>
+        <span>Paul Rothe</span>
+      </a>
+      <nav class="main-nav" aria-label="Hauptnavigation">
+        <a href="#work">Arbeiten</a>
+        <a href="#approach">Ansatz</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero-section" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">GitHub Portfolio</p>
+          <h1 id="hero-title">Landing Pages fuer klare erste Eindruecke.</h1>
+          <p class="hero-text">Eine kompakte Sammlung aus sechs unterschiedlichen Landing-Page-Konzepten, gebaut als schnelle, statische Website fuer GitHub Pages.</p>
+          <div class="hero-actions" aria-label="Primaere Aktionen">
+            <a class="button primary" href="#work">
+              <span>Portfolio ansehen</span>
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h13m-5-5 5 5-5 5"/></svg>
+            </a>
+            <a class="button secondary" href="landing-pages/nova-ops.html">
+              <span>Erstes Beispiel</span>
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="showcase-stage" aria-label="Auswahl visueller Landing-Page-Vorschauen">
+          <a class="stage-tile large" href="landing-pages/nova-ops.html" aria-label="Nova Ops Landing Page oeffnen">
+            <img src="assets/saas-dashboard.svg" alt="Dashboard-Vorschau der Nova Ops Landing Page">
+            <span>SaaS</span>
+          </a>
+          <a class="stage-tile" href="landing-pages/luma-kitchen.html" aria-label="Luma Kitchen Landing Page oeffnen">
+            <img src="assets/restaurant-table.svg" alt="Restaurant-Vorschau der Luma Kitchen Landing Page">
+            <span>Hospitality</span>
+          </a>
+          <a class="stage-tile" href="landing-pages/terra-grid.html" aria-label="Terra Grid Landing Page oeffnen">
+            <img src="assets/energy-grid.svg" alt="Energie-Vorschau der Terra Grid Landing Page">
+            <span>Energy</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="stats-band" aria-label="Portfolio Kennzahlen">
+        <div>
+          <strong>6</strong>
+          <span>Landing Pages</span>
+        </div>
+        <div>
+          <strong>0</strong>
+          <span>Build-Abhaengigkeiten</span>
+        </div>
+        <div>
+          <strong>100%</strong>
+          <span>statisch & GitHub Pages ready</span>
+        </div>
+      </section>
+
+      <section id="work" class="work-section" aria-labelledby="work-title">
+        <div class="section-heading">
+          <p class="eyebrow">Auswahl</p>
+          <h2 id="work-title">Diverse Landing-Page-Richtungen</h2>
+          <p>Jedes Beispiel hat eine eigene Zielgruppe, visuelle Sprache und conversion-orientierte Struktur.</p>
+        </div>
+
+        <div class="filter-bar" role="group" aria-label="Projekte filtern">
+          <button class="filter-button is-active" type="button" data-filter="all">Alle</button>
+          <button class="filter-button" type="button" data-filter="b2b">B2B</button>
+          <button class="filter-button" type="button" data-filter="consumer">Consumer</button>
+          <button class="filter-button" type="button" data-filter="service">Service</button>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card" data-category="b2b service">
+            <a class="project-image" href="landing-pages/nova-ops.html" aria-label="Nova Ops ansehen">
+              <img src="assets/saas-dashboard.svg" alt="SaaS-Dashboard mit Metriken und Workflow-Karten">
+            </a>
+            <div class="project-body">
+              <div class="project-meta">
+                <span>SaaS</span>
+                <span>B2B</span>
+              </div>
+              <h3>Nova Ops</h3>
+              <p>Eine ruhige Operations-Plattform mit klaren Metriken, starkem CTA und vertrauensbildender Produktpraesenz.</p>
+              <a class="text-link" href="landing-pages/nova-ops.html">Landing Page oeffnen</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="consumer service">
+            <a class="project-image" href="landing-pages/luma-kitchen.html" aria-label="Luma Kitchen ansehen">
+              <img src="assets/restaurant-table.svg" alt="Illustration eines gedeckten Restauranttischs">
+            </a>
+            <div class="project-body">
+              <div class="project-meta">
+                <span>Hospitality</span>
+                <span>Consumer</span>
+              </div>
+              <h3>Luma Kitchen</h3>
+              <p>Ein Restaurant-Auftritt mit Reservierungsfokus, warmem Editorial-Gefuehl und schneller Orientierung.</p>
+              <a class="text-link" href="landing-pages/luma-kitchen.html">Landing Page oeffnen</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="service consumer">
+            <a class="project-image" href="landing-pages/kern-studio.html" aria-label="Kern Studio ansehen">
+              <img src="assets/interior-studio.svg" alt="Modernes Interior-Studio mit Sesseln, Lampe und Pflanzen">
+            </a>
+            <div class="project-body">
+              <div class="project-meta">
+                <span>Interior</span>
+                <span>Service</span>
+              </div>
+              <h3>Kern Studio</h3>
+              <p>Eine hochwertige Studio-Seite fuer Interior Design, mit Portfolio-Signal, Prozess und Beratungseinstieg.</p>
+              <a class="text-link" href="landing-pages/kern-studio.html">Landing Page oeffnen</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="consumer">
+            <a class="project-image" href="landing-pages/pulse-lab.html" aria-label="Pulse Lab ansehen">
+              <img src="assets/fitness-app.svg" alt="Fitness-App-Vorschau mit Trainingsdaten">
+            </a>
+            <div class="project-body">
+              <div class="project-meta">
+                <span>Fitness</span>
+                <span>Consumer</span>
+              </div>
+              <h3>Pulse Lab</h3>
+              <p>Ein energischer App-Launch mit Fokus auf Programme, Fortschritt und einen direkten Teststart.</p>
+              <a class="text-link" href="landing-pages/pulse-lab.html">Landing Page oeffnen</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="b2b service">
+            <a class="project-image" href="landing-pages/terra-grid.html" aria-label="Terra Grid ansehen">
+              <img src="assets/energy-grid.svg" alt="Solar- und Energiemanagement-Visual mit Leistungswerten">
+            </a>
+            <div class="project-body">
+              <div class="project-meta">
+                <span>Energy</span>
+                <span>B2B</span>
+              </div>
+              <h3>Terra Grid</h3>
+              <p>Eine klare Energie-Landing-Page fuer Monitoring, Einsparungen und technische Entscheidungstraeger.</p>
+              <a class="text-link" href="landing-pages/terra-grid.html">Landing Page oeffnen</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="b2b">
+            <a class="project-image" href="landing-pages/cipher-pay.html" aria-label="Cipher Pay ansehen">
+              <img src="assets/fintech-card.svg" alt="Fintech-Kartenvisual mit Transaktionen und Sicherheitsstatus">
+            </a>
+            <div class="project-body">
+              <div class="project-meta">
+                <span>Fintech</span>
+                <span>B2B</span>
+              </div>
+              <h3>Cipher Pay</h3>
+              <p>Ein sicherheitsorientierter Fintech-Auftritt mit knapper Positionierung und Enterprise-Signalen.</p>
+              <a class="text-link" href="landing-pages/cipher-pay.html">Landing Page oeffnen</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="approach" class="approach-section" aria-labelledby="approach-title">
+        <div class="section-heading narrow">
+          <p class="eyebrow">Ansatz</p>
+          <h2 id="approach-title">Schnell lesbar, bewusst unterschiedlich.</h2>
+          <p>Die Beispiele zeigen unterschiedliche Branchen, aber bleiben technisch schlank: semantisches HTML, responsive CSS, lokale Assets und wenige JavaScript-Zeilen.</p>
+        </div>
+
+        <div class="approach-list">
+          <div>
+            <span>01</span>
+            <h3>Klare erste Sekunde</h3>
+            <p>Jede Landing Page macht Angebot, Zielgruppe und naechsten Schritt sofort sichtbar.</p>
+          </div>
+          <div>
+            <span>02</span>
+            <h3>Eigene Tonalitaet</h3>
+            <p>Palette, Rhythmus und Bildsprache passen zur jeweiligen Marke statt ein Template zu wiederholen.</p>
+          </div>
+          <div>
+            <span>03</span>
+            <h3>Einfach deploybar</h3>
+            <p>Keine Build-Pipeline, keine externen Fonts, keine CDN-Abhaengigkeiten. GitHub Pages reicht.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Kontakt</p>
+          <h2 id="contact-title">Bereit fuer das naechste Beispiel?</h2>
+          <p>Das Portfolio ist so aufgebaut, dass weitere Landing Pages schnell ergänzt werden können.</p>
+        </div>
+        <button class="button primary" type="button" data-copy="hello@paulrothe.dev">
+          <span>E-Mail kopieren</span>
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M8 8h10v10H8zM6 16H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></svg>
+        </button>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Paul Rothe Portfolio</span>
+      <a href="#top">Nach oben</a>
+    </footer>
+
+    <div class="toast" role="status" aria-live="polite" data-toast>E-Mail kopiert</div>
+    <script src="script.js"></script>
+  </body>
+</html>
