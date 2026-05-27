@@ -1,3 +1,7 @@
+// Remember the active language for the bilingual portfolio
+if (location.pathname.includes('/de/')) localStorage.setItem('portfolioLanguage', 'de');
+if (location.pathname.includes('/en/')) localStorage.setItem('portfolioLanguage', 'en');
+
 // Shared interactions for all landing pages
 const progress = document.querySelector('.progress-line');
 const updateProgress = () => {
@@ -35,7 +39,8 @@ document.querySelectorAll('[data-demo-form]').forEach((form) => {
   form.addEventListener('submit', (event) => {
     event.preventDefault();
     const toast = form.querySelector('.form-toast, .toast') || document.createElement('div');
-    toast.textContent = 'Danke! Das Formular ist als Frontend-Demo validiert worden.';
+    const isEnglish = location.pathname.includes('/en/');
+    toast.textContent = isEnglish ? 'Thanks! This frontend demo form has been validated.' : 'Danke! Das Formular ist als Frontend-Demo validiert worden.';
     if (!toast.parentElement) form.appendChild(toast);
     form.reset();
   });

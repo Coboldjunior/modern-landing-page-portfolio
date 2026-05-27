@@ -1,6 +1,18 @@
-# Paul – 6 Distinct Landing Page Portfolio
+# Paul – Bilingual Landing Page Portfolio
 
 Dieses Repository enthält sechs bewusst unterschiedliche, statische Landingpages für ein GitHub-Portfolio.
+Die Startseite ist jetzt eine Sprach-Auswahl. Danach öffnen Besucher die deutsche oder englische Version.
+
+## Struktur
+
+```txt
+index.html          # Sprach-Auswahl / Language selection
+assets/             # Gemeinsame CSS-, JS- und Bild-Assets
+de/index.html       # Deutsche Portfolio-Übersicht
+de/pages/...        # Deutsche Landingpages
+en/index.html       # English portfolio overview
+en/pages/...        # English landing pages
+```
 
 ## Enthaltene Projekte
 
@@ -17,6 +29,7 @@ Dieses Repository enthält sechs bewusst unterschiedliche, statische Landingpage
 - CSS3
 - Vanilla JavaScript
 - Lokale WebP-Assets
+- Zweisprachige statische Seitenstruktur
 - Kein Framework
 - Kein Build-Step
 
@@ -27,7 +40,7 @@ Dieses Repository enthält sechs bewusst unterschiedliche, statische Landingpage
 ```bash
 git init
 git add .
-git commit -m "Initial portfolio landing pages"
+git commit -m "Add bilingual portfolio landing pages"
 git branch -M main
 git remote add origin <dein-repo-url>
 git push -u origin main
@@ -35,10 +48,10 @@ git push -u origin main
 
 ## Kontakt anpassen
 
-In `index.html` steht aktuell:
+Ersetze in den Dateien `de/index.html` und `en/index.html` sowie in allen relevanten Kontaktbereichen:
 
 ```html
 mailto:deine-mail@example.com
 ```
 
-Ersetze diese Adresse durch deine echte Kontaktadresse.
+durch deine echte Kontaktadresse.
